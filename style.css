@@ -40,7 +40,7 @@ html {
 
 body {
     margin: 0;
-    font-family: Helvetica;
+    font-family: 'Fira Sans Condensed';
 }
 
 .container {
@@ -109,4 +109,8 @@ h1 {
 a.selected {
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
+}
+
+footer {
+    text-align: center;
 }
