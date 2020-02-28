@@ -7,7 +7,7 @@
     <title>Saint Antonius</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-
+    <link rel="icon" href="unname.jpg">
     <!-- Imported Styles  -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Your Styles -->
@@ -41,7 +41,7 @@
 
     <div class="container">
         <div id="a" class="a">
-            <h1 data-aos="fade-down">SlideShow</h1>
+            <h1 data-aos="fade-down" data-aos-duration="2000">SlideShow</h1>
         </div>
         <div id="b" class="b parallax">
             <h1 data-aos="fade-up" data-aos-duration="3000">Services</h1>
@@ -87,7 +87,7 @@
         // --------------------------------------------
         // Waypoints
 
-        ['a', 'b', 'c', 'd', 'e'].forEach(function(id) {
+        ['home', 'b', 'c', 'd', 'e'].forEach(function(id) {
             new Waypoint({
                 element: document.getElementById(id),
                 handler: function() {
